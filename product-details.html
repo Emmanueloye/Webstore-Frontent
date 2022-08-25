@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Store</title>
+    <!-- Owl carousel css pluggin -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Owl carousel Js pluggin -->
+    <script defer src="js/jquery.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <!-- Page scripts -->
+    <script type="module" defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="page-header">
+      <div class="top-nav">
+        <div class="main-wrapper dflex jbtw jcenter-tsm">
+          <div class="socials dflex dnone-tsm">
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div class="auth-dropdown txt-white">
+            <label for="auth-dropdown" class="fsize-16"
+              >Iremide <i class="fa-solid fa-caret-down"></i
+            ></label>
+            <input type="checkbox" id="auth-dropdown" hidden />
+            <div class="drop-down w-100px-tsm right-10-tsm jcenter-tsm">
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-square-pen"></i
+                ></span>
+                <span>Register</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-right-to-bracket"></i
+                ></span>
+                <span>Login</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-circle-arrow-left"></i
+                ></span>
+                <span>Logout</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+                <span>Profile</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav padding-1 padding-half-tsm dflex jbtw">
+        <div class="main-wrapper dflex jbtw alignItems">
+          <h1
+            class="nav-log uppercase fsize-18 txt-italic fw-700 txt-pink fsize-14-tsm"
+            >Ecommerce</h1
+          >
+          <input type="checkbox" id="mobile-toggle" hidden />
+          <ul class="nav-links dflex fdir-lg">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item 1">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600 nav-link-hide"
+                >Mega Menu 1</a
+              >
+              <label
+                class="nav-link nav-link--dropdw txt-dark txt-white-lg fsize-16 capitalise fw-600 dnone dblock-lg"
+                data-nav-label="1"
+                >Mega Menu 1</label
+              >
+              <div class="mega-menu mega--1 main-row">
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item 2">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600 nav-link-hide"
+                >Mega Menu 2</a
+              >
+              <label
+                class="nav-link nav-link--dropdw txt-dark txt-white-lg fsize-16 capitalise fw-600 dnone dblock-lg"
+                data-nav-label="2"
+                >Mega Menu 2</label
+              >
+              <div class="mega-menu mega--2 main-row">
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair 2</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair 2</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair 2</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend 2</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others 2</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="nav-action dflex">
+            <div class="search--action">
+              <label
+                for="search-icon"
+                class="search fsize-16 txt-dark capitalise fw-600 mright-2 mright-0-vsm dnone-tsm"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></label>
+              <input type="checkbox" id="search-icon" hidden />
+              <div class="search-input w-100px-tsm">
+                <form action="">
+                  <input
+                    type="text"
+                    class="form-search"
+                    placeholder="Search here..."
+                  />
+                  <button class="btn btn-search txt-dark fsize-16"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></button>
+                </form>
+              </div>
+            </div>
+            <span
+              class="cart-icon txt-dark fsize-16 fsize-12-tsm fw-600 mleft-2 mleft-0-tsm"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+          </div>
+          <label
+            for="mobile-toggle"
+            class="fsize-20 fsize-12-tsm dnone dblock-lg"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </div>
+      </nav>
+    </header>
+    <main class="main mtop-3 mbtm-3">
+      <!-- Product details section -->
+      <section class="section">
+        <div class="main-wrapper product-sec">
+          <div class="main-row">
+            <div class="three-col one-col-md mright-3">
+              <div class="main-image">
+                <img
+                  class="resize-img img-main"
+                  src="images/prod-8d0rghc7cl5ydfshf-1658609779443.jpeg"
+                  alt="Product image"
+                />
+              </div>
+              <div class="thumbnails one-col dflex jcenter">
+                <div class="thumb four-col">
+                  <img
+                    class="resize-img thumb-img thumb-active"
+                    src="images/prod-8d0rgh9esl5yd9i7v-1658609486202.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="thumb four-col">
+                  <img
+                    class="resize-img thumb-img"
+                    src="images/prod-8d0rghc7cl5ydhz3f-1658609881323.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="thumb four-col">
+                  <img
+                    class="resize-img thumb-img"
+                    src="images/prod-8d0rghc7cl5ydcu5m-1658609641642.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="thumb four-col">
+                  <img
+                    class="resize-img thumb-img"
+                    src="images/prod-8d0rghfz0l686v1po-1659203395692.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="st-col-66 one-col-md mtop-2-md">
+              <h2 class="fsize-18 txt-pink uppercase">Product Name</h2>
+              <div class="details btm-line capitalise">
+                <div class="detail-type">
+                  <span class="fsize-14 txt-dark-blue fw-600"
+                    >Product Type:
+                  </span>
+                  <span class="fsize-14 txt-dark-blue">human Hair</span>
+                </div>
+                <div class="detail-type">
+                  <span class="fsize-14 txt-dark-blue fw-600"
+                    >Available Length:
+                  </span>
+                  <span class="fsize-14 txt-dark-blue"
+                    >12 inches, 14 inches</span
+                  >
+                </div>
+                <div class="detail-type">
+                  <span class="fsize-14 txt-dark-blue fw-600"
+                    >Available Color:
+                  </span>
+                  <span class="fsize-14 txt-dark-blue">black, blonde</span>
+                </div>
+                <div class="review">
+                  <span class="fsize-14 txt-gray fw-600 active-star"
+                    ><i class="fa-solid fa-star"></i>
+                  </span>
+                  <span class="fsize-14 txt-gray fw-600 active-star"
+                    ><i class="fa-solid fa-star"></i>
+                  </span>
+                  <span class="fsize-14 txt-gray fw-600 active-star"
+                    ><i class="fa-solid fa-star"></i>
+                  </span>
+                  <span class="fsize-14 txt-gray fw-600"
+                    ><i class="fa-solid fa-star"></i>
+                  </span>
+                  <span class="fsize-14 txt-gray fw-600"
+                    ><i class="fa-solid fa-star"></i>
+                  </span>
+                  <span class="fsize-14 txt-dark-blue">(3 Reviews)</span>
+                </div>
+              </div>
+              <div class="spec btm-line">
+                <h3 class="fsize-16 txt-blue capitalise">Specification</h3>
+                <p class="fsize-14 txt-dark-blue txt-justify"
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Laboriosam, tempora laudantium praesentium nobis vel aperiam.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p
+                >
+              </div>
+              <div class="pricing btm-line">
+                <h3 class="fsize-16 txt-blue capitalise">price</h3>
+                <div class="dflex mright-4 fsize-16 fw-600">
+                  <p class="offering-price txt-pink mright-3">N200,000</p>
+                  <p class="prev-price txt-linethru opacity-half">N190,000</p>
+                </div>
+              </div>
+              <div class="choice btm-line">
+                <h3 class="fsize-16 txt-blue capitalise">Make your choice</h3>
+                <div class="dflex fdir-vsm mright-4 fsize-16 fw-600">
+                  <select id="" class="choice-select mbtm-1-vsm">
+                    <option value="null">Choose Color</option>
+                    <option class="capitalise" value="value">black</option>
+                    <option class="capitalise" value="value">blonde</option>
+                  </select>
+                  <select id="" class="choice-select">
+                    <option value="null">Choose Lenght</option>
+                    <option class="capitalise" value="value">12 inches</option>
+                    <option class="capitalise" value="value">14 inches</option>
+                  </select>
+                </div>
+                <div class="qty mtop-1">
+                  <span class="fsize-14 txt-dark-blue fw-600">Quantity: </span>
+                  <input
+                    type="number"
+                    class="choice-select pick-qty"
+                    value=""
+                    min="1"
+                    max=""
+                  />
+                </div>
+              </div>
+              <div class="one-col dflex fdir-sm alignItems-sm">
+                <button class="btn btn-details btn-mycart order-2-sm"
+                  >Add to Cart</button
+                >
+                <a href="#" class="btn btn-details mbtm-1-sm">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Others section  -->
+      <section class="section mtop-3">
+        <div class="main-wrapper product-sec">
+          <div class="tab">
+            <div class="tab-btns dflex fdir-sm jcenter alignItems mbtm-2">
+              <button class="btn btn-tab btn-tab-active" data-tab="0"
+                >Description</button
+              >
+              <button class="btn btn-tab" data-tab="1">Review</button>
+            </div>
+            <div class="tab-content dflex fdir alignItems">
+              <!-- Description -->
+              <div
+                class="content content-0 content-active st-col-70 one-col-sm"
+              >
+                <p class="fsize-14"
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci dolorem quibusdam fugit expedita ratione delectus
+                  doloremque corrupti molestias consequatur? Doloremque.</p
+                >
+                <br />
+                <p class="fsize-14"
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci dolorem quibusdam fugit expedita ratione delectus
+                  doloremque corrupti molestias consequatur? Doloremque.</p
+                >
+              </div>
+              <!-- review -->
+              <div class="content content-1 st-col-70 one-col-sm">
+                <div class="btm-line">
+                  <div class="dflex fdir-sm jbtw alignItems">
+                    <button
+                      class="btn btn-review order-2 order-1-sm mbtm-1-sm"
+                      data-add-review="0"
+                      >Add Reviews</button
+                    >
+                    <h4 class="fsize-16 txt-blue mtop-1 order-1"
+                      >Customers' Reviews</h4
+                    >
+                  </div>
+                </div>
+                <div class="customer-reviews mtop-2">
+                  <div class="review-main">
+                    <div class="review-heading dflex fdir-vsm alignItems">
+                      <img
+                        class="mright-2"
+                        src="images/image-1.jpeg"
+                        alt="User image"
+                      />
+                      <p
+                        class="fsize-16 fsize-12-tsm txt-pink fw-600 capitalise"
+                        >Iremide Emmanuel</p
+                      >
+                    </div>
+                    <div class="review-title fsize-14 mleft-4 mleft-0-vsm">
+                      <span class="txt-dark-blue fw-600 capitalise"
+                        >The Best Product Ever...</span
+                      >
+                      <span class="mleft-1 txt-pink"
+                        ><i class="fa-solid fa-calendar"></i
+                      ></span>
+                      <span class="txt-blue"> 3 days ago</span>
+                    </div>
+                    <div class="main-comment mleft-4 mleft-0-vsm txt-justify">
+                      <p class="fsize-13 txt-dark-blue"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Possimus inventore facere suscipit natus culpa
+                        ipsam, facilis beatae incidunt impedit minima.</p
+                      >
+                    </div>
+                  </div>
+                  <div class="review-main">
+                    <div class="review-heading dflex alignItems">
+                      <img
+                        class="mright-2"
+                        src="images/image-1.jpeg"
+                        alt="User image"
+                      />
+                      <p class="fsize-16 txt-pink fw-600 capitalise"
+                        >Iremide Emmanuel</p
+                      >
+                    </div>
+                    <div class="review-title fsize-14 mleft-4 mleft-0-vsm">
+                      <span class="txt-dark-blue fw-600 capitalise"
+                        >The Best Product Ever...</span
+                      >
+                      <span class="mleft-1 txt-pink"
+                        ><i class="fa-solid fa-calendar"></i
+                      ></span>
+                      <span class="txt-blue"> 3 days ago</span>
+                    </div>
+                    <div class="main-comment mleft-4 mleft-0-vsm txt-justify">
+                      <p class="fsize-13 txt-dark-blue"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Possimus inventore facere suscipit natus culpa
+                        ipsam, facilis beatae incidunt impedit minima.</p
+                      >
+                    </div>
+                  </div>
+                  <div class="review-main">
+                    <div class="review-heading dflex alignItems">
+                      <img
+                        class="mright-2"
+                        src="images/image-1.jpeg"
+                        alt="User image"
+                      />
+                      <p class="fsize-16 txt-pink fw-600 capitalise"
+                        >Iremide Emmanuel</p
+                      >
+                    </div>
+                    <div class="review-title fsize-14 mleft-4 mleft-0-vsm">
+                      <span class="txt-dark-blue fw-600 capitalise"
+                        >The Best Product Ever...</span
+                      >
+                      <span class="mleft-1 txt-pink"
+                        ><i class="fa-solid fa-calendar"></i
+                      ></span>
+                      <span class="txt-blue"> 3 days ago</span>
+                    </div>
+                    <div class="main-comment mleft-4 mleft-0-vsm txt-justify">
+                      <p class="fsize-13 txt-dark-blue"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Possimus inventore facere suscipit natus culpa
+                        ipsam, facilis beatae incidunt impedit minima.</p
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review form content -->
+              <div class="content review-0 fsize-14 st-col-70 one-col-sm">
+                <div class="review-form-wrapper">
+                  <div class="btm-line">
+                    <p class="txt-pink fw-600 txt-center fsize-16"
+                      >Did you like this product? Please leave us a review</p
+                    >
+                  </div>
+                  <form action="">
+                    <div class="f-group">
+                      <h3>Rating</h3>
+                      <select id="rating" class="form-input">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                    <div class="f-group">
+                      <h3>Review</h3>
+                      <textarea
+                        name=""
+                        id=""
+                        class="form-input"
+                        cols="10"
+                        rows="5"
+                      ></textarea>
+                    </div>
+                    <div class="f-group mtop-2">
+                      <input
+                        type="submit"
+                        class="btn btn-review"
+                        value="Submit Review"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section mtop-3 mbtm-3">
+        <div class="main-wrapper">
+          <div class="product-sec">
+            <h2 class="txt-center fsize-18 txt-blue">Related Products</h2>
+            <div class="owl-carousel">
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rgh3lgl5z2j5fw-1658651926603.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rghc7cl5ydcu5m-1658609641642.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rghc7cl5ydfshf-1658609779443.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rghc7cl5ydhz3f-1658609881323.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rghfz0l686r7ae-1659203216293.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+              <div class="main-card">
+                <a href="#">
+                  <img
+                    src="images/prod-8d0rghfz0l686v1po-1659203395692.jpeg"
+                    alt="Product image"
+                  />
+                  <div class="main-card-body">
+                    <h3 class="fsize-16 txt-pink fw-800 uppercase"
+                      >Product Name</h3
+                    >
+                    <p class="fsize-12 txt-dark mbtm-1"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Maiores, eius!...</p
+                    >
+                    <div class="pricing dflex jbtw fsize-13 fw-600 txt-dark">
+                      <p class="offering-price txt-pink">N200,000</p>
+                      <p class="prev-price txt-linethru opacity-half"
+                        >N190,000</p
+                      >
+                    </div>
+                  </div>
+                </a>
+                <button class="btn btn-add-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="dflex jcenter alignItems">
+              <a class="btn btn-shop-now" href="#">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section page-footer">
+      <div class="main-wrapper">
+        <div class="main-row jbtw">
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-md">
+            <h3 class="fsize-16 txt-gray">Metty General Merchant</h3>
+            <p class="fsize-14 txt-gray"
+              >15, Olanrewaju Street, Opp. Bishop Aggey, Mushin Lagos.</p
+            >
+            <div class="dflex">
+              <span class="fsize-14 txt-gray mright-1"
+                ><i class="fa-solid fa-phone"></i
+              ></span>
+              <a class="fsize-14 txt-gray" href="tel:08114787914"
+                >08114787914</a
+              >
+            </div>
+            <div class="dflex">
+              <span class="fsize-14 txt-gray mright-1"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              <a
+                class="fsize-14 txt-gray lowercase"
+                href="mailto:toyin@gmail.com"
+                >tOyin@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-md">
+            <h3 class="fsize-16 txt-gray">Opening Hours</h3>
+            <p class="fsize-14 txt-gray">Monday - Friday: 8:00 am - 5:00pm</p>
+            <p class="fsize-14 txt-gray">Saturday: 11:00 am - 2:00pm</p>
+            <p class="fsize-14 txt-gray"
+              >24hours help line: 08101836991 (chat only)</p
+            >
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-vsm">
+            <h3 class="fsize-16 txt-gray">Information</h3>
+            <p class="fsize-14 txt-gray">About Us</p>
+            <p class="fsize-14 txt-gray">Customer Service</p>
+            <p class="fsize-14 txt-gray">Contact Us</p>
+            <p class="fsize-14 txt-gray">Return Policy</p>
+            <p class="fsize-14 txt-gray">FAQ</p>
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-vsm">
+            <div class="dflex fdir">
+              <h3 class="fsize-16 txt-gray">Socials</h3>
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-facebook"></i> Facebook</a
+              >
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-instagram-square"></i> Instagram</a
+              >
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-twitter"></i> twitter</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="dflex fdir jcenter alignItems opacity-half mtop-1">
+          <p class="txt-gray">Site developed by Emmanuel Oyediran</p>
+          <p class="txt-gray">&copy <span id="year"></span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

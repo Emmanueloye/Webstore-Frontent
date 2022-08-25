@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Store</title>
+    <!-- Owl carousel css pluggin -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- Owl carousel Js pluggin -->
+    <script defer src="js/jquery.js"></script>
+    <script defer src="js/owl.carousel.min.js"></script>
+    <!-- Page scripts -->
+    <script type="module" defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="page-header">
+      <div class="top-nav">
+        <div class="main-wrapper dflex jbtw jcenter-tsm">
+          <div class="socials dflex dnone-tsm">
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a class="socials-link fsize-18 mright-1 txt-white" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div class="auth-dropdown txt-white">
+            <label for="auth-dropdown" class="fsize-16"
+              >Iremide <i class="fa-solid fa-caret-down"></i
+            ></label>
+            <input type="checkbox" id="auth-dropdown" hidden />
+            <div class="drop-down w-100px-tsm right-10-tsm jcenter-tsm">
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-square-pen"></i
+                ></span>
+                <span>Register</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-right-to-bracket"></i
+                ></span>
+                <span>Login</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-circle-arrow-left"></i
+                ></span>
+                <span>Logout</span>
+              </a>
+              <a href="#" class="drop-item fsize-15 txt-white mbtm-half">
+                <span class="mright-1 dnone-tsm"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+                <span>Profile</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="main-nav padding-1 padding-half-tsm dflex jbtw">
+        <div class="main-wrapper dflex jbtw alignItems">
+          <h1
+            class="nav-log uppercase fsize-18 txt-italic fw-700 txt-pink fsize-14-tsm"
+            >Ecommerce</h1
+          >
+          <input type="checkbox" id="mobile-toggle" hidden />
+          <ul class="nav-links dflex fdir-lg">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item 1">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600 nav-link-hide"
+                >Mega Menu 1</a
+              >
+              <label
+                class="nav-link nav-link--dropdw txt-dark txt-white-lg fsize-16 capitalise fw-600 dnone dblock-lg"
+                data-nav-label="1"
+                >Mega Menu 1</label
+              >
+              <div class="mega-menu mega--1 main-row">
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item 2">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600 nav-link-hide"
+                >Mega Menu 2</a
+              >
+              <label
+                class="nav-link nav-link--dropdw txt-dark txt-white-lg fsize-16 capitalise fw-600 dnone dblock-lg"
+                data-nav-label="2"
+                >Mega Menu 2</label
+              >
+              <div class="mega-menu mega--2 main-row">
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair 2</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair 2</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair 2</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend 2</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others 2</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+                <ul class="sub-menu mright-4">
+                  <a class="heading txt-pink fsize-18 fw-700 ff-poppin" href="#"
+                    >Hair</a
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Brazillian Hair</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Human Hair</a></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#"
+                      >Human Hair Blend</a
+                    ></li
+                  >
+                  <li class="ff-roboto mbtm-1"
+                    ><a class="txt-gray fsize-13" href="#">Others</a></li
+                  >
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link txt-dark txt-white-lg fsize-16 capitalise fw-600"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="nav-action dflex">
+            <div class="search--action">
+              <label
+                for="search-icon"
+                class="search fsize-16 txt-dark capitalise fw-600 mright-2 mright-0-vsm dnone-tsm"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></label>
+              <input type="checkbox" id="search-icon" hidden />
+              <div class="search-input w-100px-tsm">
+                <form action="">
+                  <input
+                    type="text"
+                    class="form-search"
+                    placeholder="Search here..."
+                  />
+                  <button class="btn btn-search txt-dark fsize-16"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></button>
+                </form>
+              </div>
+            </div>
+            <span
+              class="cart-icon txt-dark fsize-16 fsize-12-tsm fw-600 mleft-2 mleft-0-tsm"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+          </div>
+          <label
+            for="mobile-toggle"
+            class="fsize-20 fsize-12-tsm dnone dblock-lg"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section mtop-2 mtop-1-vsm mbtm-3">
+        <div class="main-wrapper">
+          <div class="two-side-profile">
+            <div class="main-row fdir-lg">
+              <!-- Profile Navigation buttons -->
+              <div class="four-col one-col-lg">
+                <div class="tab-btns padding-1 dflex-lg jcenter-md fwrap-md">
+                  <a href="profile.html" class="btn btn-tab profile-btn"
+                    >User Profile</a
+                  >
+                  <a href="update-profile.html" class="btn btn-tab profile-btn"
+                    >Update Profile</a
+                  >
+                  <a href="change-password.html" class="btn btn-tab profile-btn"
+                    >Change Password</a
+                  >
+                  <a href="order-history.html" class="btn btn-tab profile-btn"
+                    >Order History</a
+                  >
+                </div>
+              </div>
+
+              <!-- Profile  contents -->
+              <div class="st-col-75 one-col-lg">
+                <div class="profile-content product-sec">
+                  <div class="btm-line">
+                    <h3 class="fsize-18 txt-pink uppercase">Order History</h3>
+                  </div>
+                  <div class="main-row jcenter">
+                    <div class="three-col two-col-md one-col-sm">
+                      <div class="main-card bg-grad">
+                        <div class="main-card-body txt-white fsize-14">
+                          <div class="date dflex fwrap jbtw">
+                            <p class="fw-600">Date: </p>
+                            <p class="txt-right">April 24, 2022</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Order Number: </p>
+                            <p class="txt-right">SO-123456</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Invoice Number: </p>
+                            <p class="txt-right">INV-123456</p>
+                          </div>
+                          <div class="ord-qty dflex fwrap jbtw">
+                            <p class="fw-600">Order Quantity: </p>
+                            <p class="txt-right">3</p>
+                          </div>
+                          <div class="ord-amt dflex fwrap jbtw">
+                            <p class="fw-600">Order Amount: </p>
+                            <p class="txt-right">N300,000</p>
+                          </div>
+                          <div class="ord-btns">
+                            <a
+                              class="btn btn-shop-now mtop-half"
+                              href="order-details.html"
+                              ><i class="fa-solid fa-eye"></i> Details</a
+                            >
+                            <a class="btn btn-shop-now mtop-half" href="#"
+                              ><i class="fa-solid fa-download"></i> Invoice</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="three-col two-col-md one-col-sm">
+                      <div class="main-card bg-grad">
+                        <div class="main-card-body txt-white fsize-14">
+                          <div class="date dflex fwrap jbtw">
+                            <p class="fw-600">Date: </p>
+                            <p class="txt-right">April 24, 2022</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Order Number: </p>
+                            <p class="txt-right">SO-123456</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Invoice Number: </p>
+                            <p class="txt-right">INV-123456</p>
+                          </div>
+                          <div class="ord-qty dflex fwrap jbtw">
+                            <p class="fw-600">Order Quantity: </p>
+                            <p class="txt-right">3</p>
+                          </div>
+                          <div class="ord-amt dflex fwrap jbtw">
+                            <p class="fw-600">Order Amount: </p>
+                            <p class="txt-right">N300,000</p>
+                          </div>
+                          <div class="ord-btns">
+                            <a
+                              class="btn btn-shop-now mtop-half"
+                              href="order-details.html"
+                              ><i class="fa-solid fa-eye"></i> Details</a
+                            >
+                            <a class="btn btn-shop-now mtop-half" href="#"
+                              ><i class="fa-solid fa-download"></i> Invoice</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="three-col two-col-md one-col-sm">
+                      <div class="main-card bg-grad">
+                        <div class="main-card-body txt-white fsize-14">
+                          <div class="date dflex fwrap jbtw">
+                            <p class="fw-600">Date: </p>
+                            <p class="txt-right">April 24, 2022</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Order Number: </p>
+                            <p class="txt-right">SO-123456</p>
+                          </div>
+                          <div class="ord-numb dflex fwrap jbtw">
+                            <p class="fw-600">Invoice Number: </p>
+                            <p class="txt-right">INV-123456</p>
+                          </div>
+                          <div class="ord-qty dflex fwrap jbtw">
+                            <p class="fw-600">Order Quantity: </p>
+                            <p class="txt-right">3</p>
+                          </div>
+                          <div class="ord-amt dflex fwrap jbtw">
+                            <p class="fw-600">Order Amount: </p>
+                            <p class="txt-right">N300,000</p>
+                          </div>
+                          <div class="ord-btns">
+                            <a
+                              class="btn btn-shop-now mtop-half"
+                              href="order-details.html"
+                              ><i class="fa-solid fa-eye"></i> Details</a
+                            >
+                            <a class="btn btn-shop-now mtop-half" href="#"
+                              ><i class="fa-solid fa-download"></i> Invoice</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pagination dflex">
+                    <a class="btn btn-nav" href="#">
+                      <span class="prev-icon"
+                        ><i class="fa-solid fa-angle-left"></i
+                      ></span>
+                      <span>Prev</span>
+                    </a>
+                    <a class="btn btn-nav" href="#">
+                      <span>Next</span>
+                      <span class="next-icon"
+                        ><i class="fa-solid fa-angle-right"></i
+                      ></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section page-footer">
+      <div class="main-wrapper">
+        <div class="main-row jbtw">
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-md">
+            <h3 class="fsize-16 txt-gray">Metty General Merchant</h3>
+            <p class="fsize-14 txt-gray"
+              >15, Olanrewaju Street, Opp. Bishop Aggey, Mushin Lagos.</p
+            >
+            <div class="dflex">
+              <span class="fsize-14 txt-gray mright-1"
+                ><i class="fa-solid fa-phone"></i
+              ></span>
+              <a class="fsize-14 txt-gray" href="tel:08114787914"
+                >08114787914</a
+              >
+            </div>
+            <div class="dflex">
+              <span class="fsize-14 txt-gray mright-1"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              <a
+                class="fsize-14 txt-gray lowercase"
+                href="mailto:toyin@gmail.com"
+                >tOyin@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-md">
+            <h3 class="fsize-16 txt-gray">Opening Hours</h3>
+            <p class="fsize-14 txt-gray">Monday - Friday: 8:00 am - 5:00pm</p>
+            <p class="fsize-14 txt-gray">Saturday: 11:00 am - 2:00pm</p>
+            <p class="fsize-14 txt-gray"
+              >24hours help line: 08101836991 (chat only)</p
+            >
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-vsm">
+            <h3 class="fsize-16 txt-gray">Information</h3>
+            <p class="fsize-14 txt-gray">About Us</p>
+            <p class="fsize-14 txt-gray">Customer Service</p>
+            <p class="fsize-14 txt-gray">Contact Us</p>
+            <p class="fsize-14 txt-gray">Return Policy</p>
+            <p class="fsize-14 txt-gray">FAQ</p>
+          </div>
+          <div class="four-col opacity-half two-col-md one-col-vsm mbtm-2-vsm">
+            <div class="dflex fdir">
+              <h3 class="fsize-16 txt-gray">Socials</h3>
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-facebook"></i> Facebook</a
+              >
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-instagram-square"></i> Instagram</a
+              >
+              <a class="fsize-14 txt-gray" href="#"
+                ><i class="fa-brands fa-twitter"></i> twitter</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="dflex fdir jcenter alignItems opacity-half mtop-1">
+          <p class="txt-gray">Site developed by Emmanuel Oyediran</p>
+          <p class="txt-gray">&copy <span id="year"></span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
